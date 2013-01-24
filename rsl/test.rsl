@@ -1,0 +1,20 @@
+def solve(c)
+  private_int = c.fields.select(By.modifier("private")).select(By.typename("int"))
+  private_int.toRuby.each do |f|
+    f.rename(f.name + "Count")
+    g = c.methods.Select_one(By.name("get" + f.name.capitalize))
+    s = c.methods.Select_one(By.name("set" + f.name.capitalize))
+    
+    new_getter_name = "get" + f.name.capitalize + "Count"
+    new_setter_name = "set" + f.name.capitalize + "Count"
+    
+    g.rename(new_getter_name)
+    s.rename(new_setter_name)
+  end
+end
+
+project := %CURRENT_PROJECT
+project.pkg("p").classes.select(By.namereg(".*Document")).toRuby.each do |c|
+  solve(c)
+end
+
