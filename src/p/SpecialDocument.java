@@ -1,17 +1,17 @@
 package p;
 
-public class YourDocument {
+public class SpecialDocument {
 	// private fields 
 	private String title;
 	private String text;
 	private String authorName;
 	
-	private int page;
-	private int word;
-	private int character;
+	private int specialPage;
+	private int specialWord;
+	private int specialCharacter;
 	private int referred;
 	
-	// accessors
+	
 	public String getTitle() {
 		return title;
 	}
@@ -30,23 +30,23 @@ public class YourDocument {
 	public void setAuthorName(String authorName) {
 		this.authorName = authorName;
 	}
-	public int getPage() {
-		return page;
+	public int getSpecialPage() {
+		return specialPage;
 	}
-	public void setPage(int page) {
-		this.page = page;
+	public void setSpecialPage(int specialPage) {
+		this.specialPage = specialPage;
 	}
-	public int getWord() {
-		return word;
+	public int getSpecialWord() {
+		return specialWord;
 	}
-	public void setWord(int word) {
-		this.word = word;
+	public void setSpecialWord(int specialWord) {
+		this.specialWord = specialWord;
 	}
-	public int getCharacter() {
-		return character;
+	public int getSpecialCharacter() {
+		return specialCharacter;
 	}
-	public void setCharacter(int character) {
-		this.character = character;
+	public void setSpecialCharacter(int specialCharacter) {
+		this.specialCharacter = specialCharacter;
 	}
 	public int getReferred() {
 		return referred;
@@ -54,5 +54,5 @@ public class YourDocument {
 	public void setReferred(int referred) {
 		this.referred = referred;
 	}
-
+	
 }
