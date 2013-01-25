@@ -6,9 +6,9 @@ public class SpecialDocument {
 	private String text;
 	private String authorName;
 	
-	private int specialPage;
-	private int specialWord;
-	private int specialCharacter;
+	private int specialpage;
+	private int specialword;
+	private int specialcharacter;
 	private int referred;
 	
 	
@@ -30,23 +30,23 @@ public class SpecialDocument {
 	public void setAuthorName(String authorName) {
 		this.authorName = authorName;
 	}
-	public int getSpecialPage() {
-		return specialPage;
+	public int getSpecialpage() {
+		return specialpage;
 	}
-	public void setSpecialPage(int specialPage) {
-		this.specialPage = specialPage;
+	public void setSpecialpage(int specialPage) {
+		this.specialpage = specialPage;
 	}
-	public int getSpecialWord() {
-		return specialWord;
+	public int getSpecialword() {
+		return specialword;
 	}
-	public void setSpecialWord(int specialWord) {
-		this.specialWord = specialWord;
+	public void setSpecialword(int specialWord) {
+		this.specialword = specialWord;
 	}
-	public int getSpecialCharacter() {
-		return specialCharacter;
+	public int getSpecialcharacter() {
+		return specialcharacter;
 	}
-	public void setSpecialCharacter(int specialCharacter) {
-		this.specialCharacter = specialCharacter;
+	public void setSpecialcharacter(int specialCharacter) {
+		this.specialcharacter = specialCharacter;
 	}
 	public int getReferred() {
 		return referred;

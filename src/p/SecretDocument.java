@@ -7,9 +7,9 @@ public class SecretDocument {
 	private String authorName;
 	
 	
-	private int secretPage;
-	private int secretWord;
-	private int secretCharacter;
+	private int secretpage;
+	private int secretword;
+	private int secretcharacter;
 	private int referred;
 	
 	// accessors
@@ -37,23 +37,23 @@ public class SecretDocument {
 	public void setReferred(int referred) {
 		this.referred = referred;
 	}
-	public int getSecretPage() {
-		return secretPage;
+	public int getSecretpage() {
+		return secretpage;
 	}
-	public void setSecretPage(int secretPage) {
-		this.secretPage = secretPage;
+	public void setSecretpage(int secretPage) {
+		this.secretpage = secretPage;
 	}
-	public int getSecretWord() {
-		return secretWord;
+	public int getSecretword() {
+		return secretword;
 	}
-	public void setSecretWord(int secretWord) {
-		this.secretWord = secretWord;
+	public void setSecretword(int secretWord) {
+		this.secretword = secretWord;
 	}
-	public int getSecretCharacter() {
-		return secretCharacter;
+	public int getSecretcharacter() {
+		return secretcharacter;
 	}
-	public void setSecretCharacter(int secretCharacter) {
-		this.secretCharacter = secretCharacter;
+	public void setSecretcharacter(int secretCharacter) {
+		this.secretcharacter = secretCharacter;
 	}
 
 }

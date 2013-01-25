@@ -6,9 +6,9 @@ public class PublicDocument {
 	private String text;
 	private String authorName;
 	
-	private int publicPage;
-	private int publicWord;
-	private int publicCharacter;
+	private int publicpage;
+	private int publicword;
+	private int publiccharacter;
 	private int referred;
 	
 	
@@ -31,23 +31,23 @@ public class PublicDocument {
 	public void setAuthorName(String authorName) {
 		this.authorName = authorName;
 	}
-	public int getPublicPage() {
-		return publicPage;
+	public int getPublicpage() {
+		return publicpage;
 	}
-	public void setPublicPage(int publicPage) {
-		this.publicPage = publicPage;
+	public void setPublicpage(int publicPage) {
+		this.publicpage = publicPage;
 	}
-	public int getPublicWord() {
-		return publicWord;
+	public int getPublicword() {
+		return publicword;
 	}
-	public void setPublicWord(int publicWord) {
-		this.publicWord = publicWord;
+	public void setPublicword(int publicWord) {
+		this.publicword = publicWord;
 	}
-	public int getPublicCharacter() {
-		return publicCharacter;
+	public int getPubliccharacter() {
+		return publiccharacter;
 	}
-	public void setPublicCharacter(int publicCharacter) {
-		this.publicCharacter = publicCharacter;
+	public void setPubliccharacter(int publicCharacter) {
+		this.publiccharacter = publicCharacter;
 	}
 	public int getReferred() {
 		return referred;

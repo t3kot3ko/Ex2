@@ -14,7 +14,7 @@ def solve(c)
 end
 
 project := %CURRENT_PROJECT
-project.pkg("p").classes.select(By.namereg(".*Document")).toRuby.each do |c|
+project.pkg("p").classes.select(By.namereg(".+Document")).toRuby.each do |c|
   solve(c)
 end
 
